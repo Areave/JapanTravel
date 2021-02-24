@@ -883,3 +883,146 @@ overflow: hidden;
 }
 
 
+/* tours */
+
+.tours {
+margin-bottom: 139px;
+}
+
+.tours_tour {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+align-items: center;
+grid-gap: 0 108px;
+}
+
+.tour {
+margin-bottom: 77px;
+}
+
+.tour_pic {
+
+}
+
+.tour_thumb {
+
+}
+
+.tour_info {
+margin: 0 20px 58px 20px;
+}
+
+.tour_title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 85px;
+}
+
+.tour_desc {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    min-width: 519px;
+    margin-bottom: 58px;
+
+}
+
+.tour_more {
+
+}
+
+
+/* top places */
+
+.top {
+    margin-bottom: 86px;
+}
+
+.top_title {
+    margin-bottom: 54px;
+}
+
+.top_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 58px;
+
+}
+
+.top_card {
+display: flex;
+flex-direction: column;
+}
+
+.top_card-pic {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.top_card-stats {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(21, 24, 36, 0.6);
+    padding: 16px 25px
+}
+
+.top_card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0 auto 0 0;
+
+}
+
+.top_card-likes {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color:#FFFFFF;
+    padding-right: 20px;
+    background: url(/Img/svg/heart.svg) no-repeat right;
+    margin-right: 14px;
+}
+
+.top_card-comments {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color:#FFFFFF;
+    padding-right: 23px;
+    background: url(/Img/svg/comments.svg) no-repeat right;
+    margin-right: 14px;
+}
+
+.top_card-desc {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 31px;
+}
+
+.top_card-more {
+    padding: 12px 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #1B7DFF;
+    border: 0;
+    width: 118px;
+    margin-top: auto;
+}
+
+.top_card-more:hover, .top_card-more:focus, .top_card-more:active {
+    background: #0152bb;
+}
